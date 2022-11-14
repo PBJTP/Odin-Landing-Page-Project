@@ -18,7 +18,8 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
-    padding: 10px;
+    padding-top: 10px;
+    font-weight: 700;
 }
 
 .header {
@@ -48,10 +49,20 @@ body {
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 60px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.hero img {
-    background-color: gray;
+.hero-left {
+    width: 48%;
+}
+
+.imgcontainer {
+    background-color: lightslategray;
+    width: 48%;
+    max-width: 500px;
+    height: 250px;
+    max-height: 250px;
 }
 
 .hero-title {
@@ -94,7 +105,7 @@ body {
     flex-direction: column;
     margin: 30px;
     align-items: center;
-    max-width: 100px;
+    width: 140px;
 }
 
 .card-info {
@@ -104,20 +115,34 @@ body {
 .quote-banner {
     background-color: #e5e7eb;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     padding: 30px;
+    flex-direction: column;
+}
+
+.quotecontainer {
+    max-width: 1000px;
+    justify-content: center;
 }
 
 .quote {
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
     padding: 10px 100px;
-    max-width: 600px;
+}
+
+.quotesigncontainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 100px;
 }
 
 .quotesign {
     font-weight: 700;
     color: #1f2937;
+    justify-content: end;
 }
 
 .calltoaction {
@@ -132,6 +157,7 @@ body {
     border-radius: 10px;
     color:#f9faf8;
     max-width: 700px;
+    margin: 40px;
 }
 
 .ctatext1 {
@@ -145,19 +171,30 @@ body {
     padding-bottom: 10px;
 }
 
-.ctasignup {
-    padding: 20px;
+.hero .signup {
+    margin-left: 0px;
+}
+
+.signup {
+    padding: 10px 35px;
+    color: #e5e7eb;
     background-color: #3882f6;
     border: 2px solid #f9faf8;
     border-radius: 5px;
     margin-left: 50px;
+    
+}
+
+.signup:hover {
+    color:#1f2937;
+    background-color: #e5e7eb;
 }
 
 .card img {
     border: 3px solid #3882f6;
     border-radius: 7px;
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
 }
 
 .footer {
