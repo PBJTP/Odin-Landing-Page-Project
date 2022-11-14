@@ -1,0 +1,87 @@
+html {
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 10px;
+}
+
+.header {
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.footer {
+    justify-content: center;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    padding-right: 10px;
+}
+
+.header li {
+    margin-left: 30px;
+}
+
+.hero {
+    background-color: #1f2937;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    padding: 20px 30px;
+}
+
+.quote-banner {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.calltoaction {
+    display: flex;
+}
