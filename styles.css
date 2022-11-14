@@ -1,10 +1,9 @@
-html {
-}
-
 body {
+    height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header, .footer {
@@ -12,7 +11,8 @@ body {
     color: #e5e7eb;
     display: flex;
     font-size: 18px;
-    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .logo {
@@ -45,6 +45,13 @@ body {
     margin-top: 0px;
     padding: 0px;
     display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+}
+
+.hero img {
+    background-color: gray;
 }
 
 .hero-title {
@@ -55,7 +62,7 @@ body {
 
 .hero-text {
     color: #e5e7eb;
-    font-size 18px;
+    font-size: 18px;
 }
 
 .content {
@@ -63,11 +70,35 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-top: 15px;
+}
+
+.content-text {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
 }
 
 .card-container {
     display: flex;
     padding: 20px 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    max-width: 100px;
+}
+
+.card-info {
+    text-align: center;
 }
 
 .quote-banner {
@@ -80,8 +111,55 @@ body {
 .quote {
     font-size: 36px;
     font-style: italic;
+    padding: 10px 100px;
+    max-width: 600px;
+}
+
+.quotesign {
+    font-weight: 700;
+    color: #1f2937;
 }
 
 .calltoaction {
     display: flex;
+    justify-content: center;
+}
+
+.ctabanner {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 80px;
+    border-radius: 10px;
+    color:#f9faf8;
+    max-width: 700px;
+}
+
+.ctatext1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ctatext2 {
+    padding-bottom: 10px;
+}
+
+.ctasignup {
+    padding: 20px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.card img {
+    border: 3px solid #3882f6;
+    border-radius: 7px;
+    height: 100px;
+    width: 100px;
+}
+
+.footer {
+    padding: 25px;
 }
